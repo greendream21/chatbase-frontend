@@ -1,0 +1,25 @@
+footer.footer-main-box {
+    height: 65px;
+    padding: 0;
+    outline: 1px solid #e8e8e8;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.fs-6 {
+    text-align: center;
+}
+
+.fs-12 {
+    text-align: center;
+}
+
+footer span.d-inline-block {
+    padding-inline: 5px;
+}

@@ -1,0 +1,31 @@
+<svg id="SvgjsSvg1069" width="22" height="22" xmlns="http://www.w3.org/2000/svg"
+    version="1.1" xmlns:xlink = "http://www.w3.org/1999/xlink"
+    xmlns:svgjs="http://svgjs.com/svgjs">
+    <defs id="SvgjsDefs1070"></defs>
+    <g id="SvgjsG1071"><svg xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink = "http://www.w3.org/1999/xlink" viewBox="0 0 22 22"
+        width="22" height="22">
+        <defs>
+            <circle id="a" cx="8.5" cy="10.5" r="1.5" fill="#ffffff"
+                className="color000 svgShape"></circle>
+            <circle id="b" cx="12.5" cy="10.5" r="1.5" fill="#ffffff"
+                className="color000 svgShape"></circle>
+            <circle id="c" cx="16.5" cy="10.5" r="1.5" fill="#ffffff"
+                className="color000 svgShape"></circle>
+        </defs>
+        <g fill="none" fillRule="evenodd">
+            <path stroke="#ffffff"
+                d="m8.888 21.518 5.985-4.489H20a1.5 1.5 0 0 0 1.5-1.5V5A1.5 1.5 0 0 0 20 3.5H5A1.5 1.5 0 0 0 3.5 5v10.53a1.5 1.5 0 0 0 1.5 1.5h3.088v4.088a.5.5 0 0 0 .8.4z"
+                className="colorStroke4A4A4A svgStroke"></path>
+            <use fill="#FFF" xlinkHref="#a"></use>
+            <circle cx="8.5" cy="10.5" r="1" stroke="#ffffff"
+                className="colorStroke4A4A4A svgStroke"></circle>
+            <use fill="#FFF" xlinkHref="#b"></use>
+            <circle cx="12.5" cy="10.5" r="1" stroke="#ffffff"
+                className="colorStroke4A4A4A svgStroke"></circle>
+            <use fill="#FFF" xlinkHref="#c"></use>
+            <circle cx="16.5" cy="10.5" r="1" stroke="#ffffff"
+                className="colorStroke4A4A4A svgStroke"></circle>
+        </g>
+    </svg></g>
+</svg>

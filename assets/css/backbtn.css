@@ -1,0 +1,29 @@
+#back {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+
+#back .back-btn {
+    display: flex;
+    justify-content: center;
+    width: 69px;
+    height: 30px;
+    background-color: #37a987;
+    border: none;
+    border-radius: 4px;
+    align-items: center;
+}
+
+#back .back-btn-img {
+    width: 12px;
+    height: 12px;
+    margin-right: 5%;
+    filter: invert(1);
+}
+
+#back .back-btn-txt {
+    font-size: 14px;
+    color: #FFF;
+}

@@ -1,0 +1,181 @@
+#dashboardPage {
+  max-height: 80vh;
+  overflow: auto;
+  background: #e8e8e8;
+}
+
+#dashboardPage .widget {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+#dashboardPage .description {
+  font-size: 14px;
+  padding: 20px 0px;
+  color: #3f3f46;
+}
+
+#dashboardPage .form {
+  display: flex;
+  flex-direction: column;
+  padding: 16px 0px;
+}
+
+#dashboardPage .title {
+  font-size: 16px;
+  font-weight: bold;
+  color: #111827;
+}
+
+#dashboardPage .log-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 20px;
+  margin: 8px 0px 0px;
+  flex-wrap: wrap;
+}
+
+#dashboardPage .log-element {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.1);
+  width: 40%;
+  min-width: 268px;
+}
+
+#dashboardPage .log-title {
+  font-size: 14px;
+  color: #6b7280;
+}
+
+#dashboardPage .log-number {
+  font-size: 30px;
+  color: #111827;
+  margin: 4px 0px 0px;
+}
+
+#dashboardPage .msglog-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border-top-width: 1px;
+  border-bottom-width: 0px;
+}
+
+#dashboardPage .msglog-form {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#dashboardPage .msglog-form:hover {
+  background-color: #f9fafb;
+}
+
+#dashboardPage .msg-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: #a0aec0;
+}
+
+#dashboardPage .msg-2 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 0.25rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+#dashboardPage .user-msg {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+#dashboardPage .msg-time {
+  white-space: nowrap;
+}
+
+#dashboardPage .bot-msg {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+#chatlog-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 512px;
+}
+
+#chatlog-container .chatlog-widget {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 20px;
+  height: 608px;
+  margin-bottom: 16px;
+  margin: 0px auto;
+  overflow: auto;
+}
+
+#chatlog-container .reload {
+  width: 20px;
+  height: 20px;
+}
+
+#chatlog-container .chat-content {
+  border-radius: 8px;
+  font-size: 1rem;
+  line-height: 1.75;
+  display: flex;
+  flex-direction: column;
+}
+
+#chatlog-container .message {
+  border-radius: 4px;
+  padding: 8px;
+  margin-bottom: 8px;
+  word-wrap: break-word;
+  overflow-wrap: anywhere;
+  text-align: left;
+}
+
+#chatlog-container .user {
+  background-color: rgb(79, 69, 228);
+  color: white;
+  align-self: flex-end;
+  border-radius: 0.5rem;
+  padding: 0.75rem 1rem;
+  margin-bottom: 0.5rem;
+  margin-left: 10%;
+}
+
+#chatlog-container .bot {
+  background-color: #f4f4f5;
+  color: #4b5563;
+  align-self: flex-start;
+  border-radius: 0.5rem;
+  padding: 0.75rem 1rem;
+  margin-bottom: 0.5rem;
+  margin-right: 10%;
+}

@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    outline: none !important;
+}
+
+@font-face {
+    font-family: 'LexendDeca-Bold';
+    src: url('../fonts/LexendDeca/LexendDeca-Bold.ttf') format('ttf'), url('../fonts/LexendDeca/LexendDeca-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LexendDeca-Regular';
+    src: url('../fonts/LexendDeca/LexendDeca-Regular.ttf') format('ttf'), url('../fonts/LexendDeca/LexendDeca-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html,
+body {
+    font-family: 'LexendDeca-Regular';
+    color: #33475b;
+    overflow: hidden;
+}
+
+label {
+    display: block !important;
+    margin-bottom: 0;
+}
+
+span {
+    font-family: 'Golos Text', sans-serif;
+}
+
+ul,
+ol {
+    margin-bottom: 0;
+}
+
+a {
+    font-family: 'LexendDeca-Regular';
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'LexendDeca-Bold';
+    font-weight: 700;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    font-family: 'LexendDeca-Bold';
+    font-weight: 500;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+::placeholder {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    color: #DDD;
+}
+
+p {
+    margin-bottom: 0;
+    font-family: 'LexendDeca-Regular';
+    font-weight: 400;
+}
+
+.row {
+    margin: 0;
+}
+
+span {
+    font-family: 'LexendDeca-Regular';
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+.col-lg-2 {
+    max-width: 14%;
+}
+
+.col-lg-10 {
+    -ms-flex: 0 0 86%;
+    flex: 0 0 86%;
+    max-width: 86%;
+}

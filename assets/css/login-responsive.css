@@ -1,0 +1,178 @@
+@media (max-width: 1199px) {
+    #loginPage .google-btn a {
+        width: 39%;
+    }
+}
+
+@media (max-width: 991px) {
+    #loginPage .Login-btn {
+        display: none;
+    }
+
+    #loginPage ul.list {
+        display: none;
+    }
+
+    #loginPage .humburger-left {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #loginPage .humburger-right {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        rotate: 180deg;
+    }
+
+    #loginPage ul.lists li a {
+        font-size: 16px;
+        padding: 20px 20px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        color: #fff;
+        justify-content: center;
+    }
+
+    #loginPage .Login2-btn a {
+        padding: 10px 50px !important;
+        background: #37a987 !important;
+        border-radius: 4px !important;
+        color: #fff !important;
+        font-size: 16px !important;
+    }
+
+    #loginPage .responsive-bar {
+        display: block;
+        position: absolute;
+        top: -300px;
+        right: 0;
+        left: 0;
+        background: #4b3d8f;
+        transition: all 0.5s;
+        height: 205px;
+        border-top: 1px solid #fff;
+        text-align: center;
+    }
+
+    #loginPage ul.lists li {
+        border-bottom: 1px solid white;
+    }
+
+    #loginPage .main-header-menu-icon span {
+        display: block;
+        position: relative;
+        width: 15px;
+        height: 2px;
+        background-color: #fff;
+        border-radius: 3px;
+        transition: all .2s ease-in-out;
+    }
+
+    #loginPage .slide-right {
+        left: 0 !important;
+    }
+
+    #loginPage .slide-left {
+        top: 64px !important;
+    }
+
+    #loginPage .Login2-btn {
+        margin-top: 23px;
+    }
+
+    #loginPage .pd-box {
+        gap: 20px;
+    }
+
+    #loginPage .login-google .Login-btn {
+        display: block;
+    }
+
+    /* #loginPage .log-google {
+        padding: 120px 0;
+    } */
+
+    #loginPage .google-btn a {
+        width: 54%;
+    }
+
+}
+
+@media(max-width:768px) {
+    #loginPage .login {
+        width: 350px;
+    }
+
+    #loginPage .google-btn a {
+        font-size: 15px;
+        width: 60%;
+    }
+
+    #loginPage .Login-btn a {
+        font-size: 15px;
+    }
+
+    #loginPage .fs-6 {
+        font-size: 13px;
+    }
+
+    #loginPage .fs-12 {
+        font-size: 13px;
+    }
+}
+
+@media(max-width:585px) {
+
+    #loginPage .login-title h4 {
+        font-size: 18px;
+        margin-bottom: 20PX;
+    }
+
+    #loginPage .login-google .Login-btn a {
+        padding: 8px 69px;
+    }
+
+    #loginPage .login-google .google-btn a {
+        padding: 8px 25px;
+    }
+
+    #loginPage input#password,
+    input#email {
+        padding: 6px;
+    }
+
+    #loginPage .google-btn a {
+        width: 320px;
+    }
+
+    #loginPage .form span {
+        font-size: 11px;
+        right: 25px;
+        bottom: 120px;
+    }
+
+    #loginPage .login-google span {
+        font-size: 11px;
+        bottom: 31px;
+    }
+}
+
+@media(max-width:480px) {
+    #loginPage .google-btn a {
+        width: 70%;
+        font-size: 13px;
+    }
+
+    #loginPage .Login-btn a {
+        font-size: 13px;
+    }
+}
+
+@media(max-width:320px) {
+    #loginPage .google-btn a {
+        width: 100%;
+    }
+}

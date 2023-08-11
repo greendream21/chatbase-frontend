@@ -1,0 +1,172 @@
+@media (max-width: 1199px) {
+    #settingsPage .card {
+        padding: 20px;
+        width: 220px;
+    }
+
+    #settingsPage .row.pad {
+        width: 100%;
+    }
+}
+
+@media (max-width: 991px) {
+    #settingsPage .slide-right {
+        left: 0 !important;
+    }
+
+    #settingsPage .pd-box {
+        gap: 20px;
+    }
+
+    #settingsPage .setting-listing-box.yykk {
+        display: none;
+        position: absolute;
+        top: 66px;
+        border-top: 1px solid #ddd;
+        background: #fff;
+        right: 15px;
+        left: 15px;
+        z-index: 99;
+        box-shadow: 0 10px 10px rgb(0 0 0 / 0.2);
+    }
+
+    #settingsPage .setting-left-box .setting-tittle {
+        background: #fff;
+        border-radius: 4px;
+        border: 0;
+    }
+
+    .setting-left-box,
+    #settingsPage .setting-right-box {
+        min-height: auto;
+    }
+
+    #settingsPage .img-box {
+        margin-bottom: 20px;
+        width: 60px;
+        height: 60px;
+    }
+
+    #settingsPage .account-dis h3 {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    #settingsPage .account-dis p {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    #settingsPage .setting-body p em {
+        font-size: 13px;
+    }
+
+    #settingsPage .setting-right-box.scroll-box {
+        height: 64vh;
+    }
+
+    #settingsPage .account-box {
+        display: block;
+    }
+
+    #settingsPage .img-box img {
+        width: 20px;
+    }
+
+    #settingsPage .cover-bar {
+        border-radius: 10px;
+    }
+
+    #settingsPage .row.pad {
+        width: 100%;
+    }
+
+    #settingsPage .col-lg-6.right {
+        padding-right: 0 !important;
+        padding-left: 0;
+        margin-top: 24px;
+    }
+
+    #settingsPage .writing-style-box {
+        display: block;
+    }
+
+    #settingsPage .card {
+        padding: 20px;
+        width: 300px;
+    }
+
+    #settingsPage .responsive-arrow {
+        display: block;
+    }
+
+    #settingsPage .open {
+        display: block !important;
+    }
+}
+
+@media (max-width: 767px) {
+    #settingsPage .setting-tittle h4 {
+        font-size: 18px;
+    }
+
+    #settingsPage .sectting-contain p {
+        font-size: 13px;
+    }
+
+    #settingsPage .writing-goals-cards {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+
+    #settingsPage .card {
+        padding: 20px;
+        width: 100%;
+    }
+
+    #settingsPage .writing-style-box .img-box {
+        width: 50px;
+        height: 50px;
+    }
+
+    #settingsPage .sub-heading p {
+        font-size: 13px;
+        margin-bottom: 8px;
+    }
+
+    #settingsPage .sub-heading h4 {
+        font-size: 16px;
+        margin-bottom: 4px;
+    }
+
+    #settingsPage .col-lg-6.right {
+        margin-top: 10px;
+    }
+
+    #settingsPage .col-lg-12 {
+        margin-top: 10px;
+    }
+
+    #settingsPage .card h5 {
+        font-size: 16px;
+        margin-bottom: 8px;
+    }
+
+    #settingsPage .fs-6 {
+        font-size: 13px;
+    }
+
+    #settingsPage .fs-12 {
+        font-size: 13px;
+    }
+
+    #settingsPage .writing-style-box:first-child {
+        padding-top: 10px;
+        border-top: 0;
+    }
+
+    #settingsPage .writing-style-box {
+        padding: 15px 0;
+    }
+}

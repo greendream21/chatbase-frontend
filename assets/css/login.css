@@ -1,0 +1,287 @@
+#loginPage .Login-btn a {
+    padding: 10px;
+    background: #37a987;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.container,
+#loginPage .container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#loginPage .responsive-bar {
+    display: none;
+}
+
+#loginPage .main-header-menu-icon span {
+    display: block;
+    position: relative;
+    width: 15px;
+    height: 2px;
+    background-color: #fff;
+    border-radius: 3px;
+    transition: all .2s ease-in-out;
+}
+
+.main-header-menu-icon span:after,
+#loginPage .main-header-menu-icon span:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 25px;
+    height: 2px;
+    background-color: #fff;
+    border-radius: 3px;
+    transition: all .2s ease-in-out;
+}
+
+#loginPage .main-header-menu-icon span:before {
+    top: 6px;
+}
+
+#loginPage span:before {
+    width: 25px;
+}
+
+#loginPage .main-header-menu-icon span:after {
+    top: -6px;
+}
+
+#loginPage .main-header-menu-icon {
+    width: 25px;
+    margin-right: 16px;
+}
+
+#loginPage footer.footer-main-box {
+    height: 65px;
+    padding: 0;
+    outline: 1px solid #e8e8e8;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+#loginPage .fs-6 {
+    text-align: center;
+}
+
+#loginPage .fs-12 {
+    text-align: center;
+}
+
+#loginPage span.d-inline-block svg {
+    fill: #37a987;
+}
+
+#loginPage .scroll-bar-wrap {
+    position: relative;
+    margin-bottom: 2em;
+}
+
+#loginPage .scroll-box {
+    width: 100%;
+    height: 73vh;
+    overflow-y: scroll;
+}
+
+#loginPage .scroll-box::-webkit-scrollbar {
+    width: .4em;
+}
+
+.scroll-box::-webkit-scrollbar,
+#loginPage .scroll-box::-webkit-scrollbar-thumb {
+    overflow: visible;
+    border-radius: 4px;
+}
+
+#loginPage .scroll-box::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, .2);
+}
+
+#loginPage .cover-bar {
+    position: absolute;
+    background: #fff;
+    height: 100%;
+    top: 0;
+    right: 0;
+    width: .4em;
+    -webkit-transition: all .5s;
+    opacity: 1;
+    border-radius: 10px;
+}
+
+
+/* MAGIC HAPPENS HERE */
+
+#loginPage .scroll-bar-wrap:hover .cover-bar {
+    opacity: 0;
+    -webkit-transition: all .5s;
+}
+
+#loginPage .login-main-box {
+    padding-top: 64px;
+    background: #e8e8e8;
+    height: 100vh;
+}
+
+#loginPage .login {
+    width: 400px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#loginPage .flex {
+    display: flex;
+    justify-content: center;
+}
+
+#loginPage .log-google {
+    padding: 39px 0;
+}
+
+#loginPage .login-title h4 {
+    font-size: 21px;
+    margin-bottom: 30PX;
+}
+
+#loginPage input#password,
+input#email {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 24px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#loginPage .form label {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+#loginPage .login-google .Login-btn a {
+    padding: 10px;
+    width: 100%;
+    display: block;
+}
+
+/* 
+#loginPage .login-google .google-btn a {
+    padding: 10px 40px;
+    background: #37a987;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+} */
+#loginPage .google-btn a {
+    padding: 10px;
+    width: 33%;
+    display: block;
+    margin: 12px auto;
+    background: #fff;
+    border-radius: 4px;
+    color: #33475b;
+    font-size: 16px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+#loginPage .google-btn img {
+    width: 24px;
+    height: 24px;
+    margin-right: 50px;
+}
+
+#loginPage .google-btn,
+.Login-btn {
+    margin: 15px 0;
+}
+
+#loginPage .login-google span {
+    text-align: center;
+    display: block;
+    position: absolute;
+    font-size: 12px;
+    right: 24px;
+    bottom: 30px;
+}
+
+#loginPage .Login-btn {
+    margin-bottom: 35px;
+}
+
+
+
+#loginPage .login-google {
+    text-align: center;
+}
+
+#loginPage .google-btn {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#loginPage .google-btn span {
+    display: block;
+}
+
+#loginPage .google-btn a {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 5%;
+}
+
+#loginPage .form span {
+    position: absolute;
+    font-size: 13px;
+    right: 25px;
+    bottom: 125px;
+}
+
+#loginPage input#password {
+    margin-bottom: 34px;
+}
+
+#loginPage .oauth-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0px;
+}
+
+#loginPage .oauth-btn span {
+    display: block;
+    margin: 10px 0px;
+}
+
+#loginPage .oauth-element {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px;
+    gap: 10px;
+}
+
+#loginPage .oauth-google-element {
+    width: 215px;
+    height: 41px;
+}

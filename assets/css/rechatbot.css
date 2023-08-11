@@ -1,0 +1,395 @@
+#rechatbotPage {
+    max-height: 80vh;
+    overflow: auto;
+    background: #e8e8e8;
+}
+
+#rechatbotPage .widget {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+#rechatbotPage #title {
+    display: flex;
+    justify-content: center;
+}
+
+#rechatbotPage #title .title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#rechatbotPage #main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 48px 0px;
+    align-items: center;
+    margin: auto;
+}
+
+#rechatbotPage #main #list {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 50px;
+    align-items: center;
+    width: 100%;
+    max-width: 384px;
+}
+
+#rechatbotPage #main #list .title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#rechatbotPage #main #list .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 42px;
+    padding: 8px 20px;
+    font-size: 14px;
+    background-color: #00a67d;
+    border-radius: 4px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    width: 100%;
+}
+
+#rechatbotPage #main #files {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-height: 610px;
+    margin: auto;
+    gap: 40px;
+    width: 100%;
+    align-items: center;
+}
+
+#rechatbotPage #main #files .file-widget {
+    max-width: 384px;
+    align-items: center;
+    text-align: center;
+}
+
+#rechatbotPage #main #files .back {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+#rechatbotPage #main #files .back-btn {
+    display: flex;
+    justify-content: center;
+    width: 69px;
+    height: 30px;
+    background-color: #37a987;
+    border: none;
+    border-radius: 4px;
+    align-items: center;
+}
+
+#rechatbotPage #main #files .back-btn-img {
+    width: 12px;
+    height: 12px;
+    margin-right: 5%;
+    filter: invert(1);
+}
+
+#rechatbotPage #main #files .back-btn-txt {
+    font-size: 14px;
+    color: #FFF;
+}
+
+#rechatbotPage #main #files .page {
+    margin: 8px auto;
+}
+
+#rechatbotPage #main #files .upload-txt {
+    font-size: 14px;
+    color: #111827;
+    margin: 0px 0px 8px;
+}
+
+#rechatbotPage #main #files .attach-txt {
+    font-size: 14px;
+    color: #4B5563;
+    text-align: center;
+}
+
+#rechatbotPage #main #files #myPdf {
+    border: 1px solid #000;
+    border-radius: 4px;
+    width: 100%;
+}
+
+#rechatbotPage #main #files .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 42px;
+    padding: 8px 20px;
+    font-size: 14px;
+    background-color: #00a67d;
+    border-radius: 4px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    margin: 25px 0px 0px;
+}
+
+#rechatbotPage #main #text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-height: 610px;
+    margin: auto;
+    width: 100%;
+    max-width: 768px;
+}
+
+#rechatbotPage #main #text .back {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+
+#rechatbotPage #main #text .back-btn {
+    display: flex;
+    justify-content: center;
+    width: 69px;
+    height: 30px;
+    background-color: #37a987;
+    border: none;
+    border-radius: 4px;
+    align-items: center;
+}
+
+#rechatbotPage #main #text .back-btn-img {
+    width: 12px;
+    height: 12px;
+    margin-right: 5%;
+    filter: invert(1);
+}
+
+#rechatbotPage #main #text .back-btn-txt {
+    font-size: 14px;
+    color: #FFF;
+}
+
+#rechatbotPage #main #text .title {
+    height: 30px;
+    font-size: 16px;
+    padding: 4px 12px;
+    border: 1px solid #33475B;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+#rechatbotPage #main #text .data {
+    min-height: 300px;
+    font-size: 16px;
+    margin: 8px 0px;
+    padding: 4px 12px;
+    border: 1px solid #33475B;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+#rechatbotPage #main #text .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 42px;
+    margin: 40px 0px 0px;
+    padding: 8px 20px;
+    font-size: 14px;
+    background-color: #00a67d;
+    border-radius: 4px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+}
+
+#rechatbotPage #main #website {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-height: 610px;
+    margin: auto;
+    width: 100%;
+    max-width: 768px;
+}
+
+#rechatbotPage #main #website .back {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+
+#rechatbotPage #main #website .back-btn {
+    display: flex;
+    justify-content: center;
+    width: 69px;
+    height: 30px;
+    background-color: #37a987;
+    border: none;
+    border-radius: 4px;
+    align-items: center;
+}
+
+#rechatbotPage #main #website .back-btn-img {
+    width: 12px;
+    height: 12px;
+    margin-right: 5%;
+    filter: invert(1);
+}
+
+#rechatbotPage #main #website .back-btn-txt {
+    font-size: 14px;
+    color: #FFF;
+}
+
+#rechatbotPage #main #website .header-description {
+    text-align: center;
+    font-size: 12px;
+}
+
+#rechatbotPage #main #website .element {
+    display: flex;
+    flex-direction: column;
+    margin: 16px 0px;
+}
+
+#rechatbotPage #main #website .title {
+    font-size: 14px;
+    margin: 8px 0px;
+    font-weight: bold;
+}
+
+#rechatbotPage #main #website .input-form {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+
+#rechatbotPage #main #website .input {
+    width: 100%;
+    height: 42px;
+    font-size: 14px;
+    padding: 6px 12px;
+    border: 1px solid #33475B;
+    border-radius: 4px;
+}
+
+#rechatbotPage #main #website .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 42px;
+    margin: 0px 0px 0px 8px;
+    padding: 8px 20px;
+    font-size: 14px;
+    background-color: #00a67d;
+    border-radius: 4px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    white-space: nowrap;
+}
+
+#rechatbotPage #main #website .wbtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 42px;
+    margin: 0px 0px 0px 8px;
+    padding: 8px 20px;
+    font-size: 14px;
+    background-color: #FFF;
+    border-radius: 4px;
+    color: #000;
+    font-size: 16px;
+    border: 1px solid #33475B;
+    white-space: nowrap;
+}
+
+#rechatbotPage #main #website .bbtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 42px;
+    margin: 40px 0px;
+    padding: 8px 20px;
+    font-size: 14px;
+    background-color: #00a67d;
+    border-radius: 4px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    white-space: nowrap;
+}
+
+#rechatbotPage #main #website .sbtn-widget{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#rechatbotPage #main #website .sbtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 30px;
+    padding: 4px 8px;
+    font-size: 14px;
+    background-color: #4B3D8F;
+    border-radius: 4px;
+    color: #FFF;
+    font-size: 16px;
+    border: none;
+    white-space: nowrap;
+    margin: 8px 0px;
+}
+
+#rechatbotPage #main #website .description {
+    font-size: 14px;
+    padding: 16px 0px;
+}
+
+#rechatbotPage #main #website .or {
+    margin: 8px 0px;
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    align-items: center;
+}
+
+#rechatbotPage #main #website .or-hr {
+    width: 100%;
+}
+
+#rechatbotPage #main #website .or-text {
+    font-size: 16px;
+    padding: 0px 8px;
+}
